@@ -1,0 +1,6 @@
+<h2>User List</h2>
+<div *ngFor="let user of users" class="user" (click)="viewUserDetails(user.id)">
+  <img [src]="user.avatar" alt="User Avatar" />
+  <p>{{ user.first_name }} {{ user.last_name }}</p>
+  <p>{{ user.email }}</p>
+</div>

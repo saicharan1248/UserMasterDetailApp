@@ -1,0 +1,28 @@
+/* styles.scss */
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Add some space around the main content */
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
